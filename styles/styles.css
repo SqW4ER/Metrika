@@ -10,6 +10,7 @@ body {
 }
 
 .main-block {
+    width: 100%;
     margin-bottom: 150px;
 }
 
@@ -35,19 +36,28 @@ body {
 }
 
 .main-block > h1 {
+    width: 956px;
     font-size: 60px;
+    font-weight: 400;
     line-height: 60px;
     margin-bottom: 30px;
+    letter-spacing: -0.03em;
 }
 
 
 .about > h2 {
     font-size: 18px;
+    font-weight: 400;
     margin-bottom: 30px;
 }
 
 .about > p {
+    display: inline-block;
+    width: 1048px;
     font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -0.03em; 
     margin-bottom: 30px;
 }
 
@@ -55,11 +65,45 @@ body {
     display: block;
     color: white;
     background-color: #AD1818;
-    width: 300px;
-    height: 50px;
+    width: 255px;
+    height: 67px;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 67px;
     border-radius: 5px;
+}
+
+.projects {
+    margin-top: 150px;
+}
+
+.projects > h2 {
+    color: #121212; 
+    font-size: 18px;  
+    font-weight: 400
+}
+
+.projects__item {
+    margin-top: 30px;
+}
+
+.projects__item > img {
+    width: 100%;
+}
+
+.projects__item > p {
+    height: 41px;
+    margin-top: 15px;
+    color: #121212; 
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.projects__item > a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #AD1818;
+    font-size: 20px;
 }
