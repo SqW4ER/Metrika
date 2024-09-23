@@ -1,6 +1,13 @@
+:root {
+    --main-text-color: #ffffff;
+    --second-text-color: #121212;
+    --link-color: #AD1818;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
+    font-size: 30px;
     letter-spacing: -0.03em;
 }
 
@@ -8,6 +15,14 @@ body {
     width: 1150px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: var(--second-text-color);
+    text-transform: uppercase;
+    line-height: 25px;
 }
 
 .hero {
@@ -30,22 +45,14 @@ body {
     bottom: 40px;
     font-size: 20px;
     line-height: 27.32px;
-    color: #ffffff;
+    color: var(--main-text-color);
     width: 40%;
 }
 
 .hero__title {
     width: 956px;
     font-size: 60px;
-    font-weight: 400;
     line-height: 60px;
-    margin-bottom: 30px;
-}
-
-
-.about__title {
-    font-size: 18px;
-    font-weight: 400;
     margin-bottom: 30px;
 }
 
@@ -53,15 +60,14 @@ body {
     display: inline-block;
     width: 1048px;
     font-size: 45px;
-    font-weight: 400;
     line-height: 61px; 
     margin-bottom: 30px;
 }
 
 .about > .services-btn {
     display: block;
-    color: white;
-    background-color: #AD1818;
+    color: var(--main-text-color);
+    background-color: var(--link-color);
     width: 255px;
     height: 67px;
     text-decoration: none;
@@ -75,14 +81,7 @@ body {
     margin-top: 150px;
 }
 
-.projects > h2 {
-    color: #121212; 
-    font-size: 18px;  
-    font-weight: 400
-}
-
-.projects__item {
-    margin-top: 30px;
+.projects__list-item {
     margin-bottom: 90px;
 }
 
@@ -93,16 +92,14 @@ body {
 .projects__item > p {
     height: 41px;
     margin-top: 15px;
-    color: #121212; 
-    font-size: 30px;
-    font-weight: 400;
+    color: var(--second-text-color); 
 }
 
 .projects__item > a {
     display: inline-block;
     margin-top: 15px;
     text-decoration: none;
-    color: #AD1818;
+    color: var(--link-color);
     font-size: 20px;
 }
 
@@ -111,45 +108,39 @@ body {
     width: 100%;
     height: 153px;
     margin-bottom: 150px;
-    color: #ad1818;
+    color: var(--link-color);
     text-decoration: none;
     text-align: center;
-    border: 1px solid #ad1818;
+    border: 1px solid var(--link-color);
     border-radius: 5px;
-    font-weight: 400;
-    font-size: 30px;
     line-height: 153px;
 }
 
 .projects__link:hover {
-    background-color: #AD1818;
-    color: #ffffff;
+    background-color: var(--link-color);
+    color: var(--main-text-color);
     transition: background-color 0.7s, color 0.7s;
 }
 
 .services-section {
-    background-color: black;
+    background-color: var(--second-text-color);
     padding: 150px 0 150px 0;
 }
 
-.services-header {
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    color: #fff;
+.services-title {
+    color: var(--main-text-color);
 }
 
 .services__item > p {
-    margin-bottom: 60px;
-    font-weight: 400;
-    font-size: 30px;
     line-height: 41px;
-    color: #fff;
+    color: var(--main-text-color);
 }
 
-.services__item :last-child {
+.services__list-item {
+    margin-bottom: 60px;
+}
+
+.services__list-item :last-child {
     margin-bottom: 0;
 }
 
@@ -162,8 +153,6 @@ body {
     display: block;
     padding-top: 575px;
     width: 443px;
-    font-weight: 400;
-    font-size: 30px;
     line-height: 41px;
-    color: #FFFFFF;
+    color: var(--main-text-color);
 }
