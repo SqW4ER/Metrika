@@ -2,110 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Метрика</title>
 
     <link rel="stylesheet" href="styles/reset.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <section class="hero-section">
+    <header class="hero">
         <div class="container">
-            <div class="hero">
                 <h1 class="hero__title">Современные и стильные интерьеры для комфортной жизни</h1>
                 <div class="hero__image">
                     <p class="hero__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
                 </div>
-            </div>
         </div>
-    </section>
-    <section class="about-section">
-        <div class="container">
-            <div class="about">
-                <h2 class="title">О НАС</h6>
-                <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. 
-                К нам обращаются за уютом, индивидуальными решениями и практичностью.
-                Находим конструктивные решения для каждого интерьера, 
-                вплоть до каждой детали — нацелены на результат.
-                </p>
-                <a href="#" class="services-btn">Посмотреть услуги</a>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+                    <h2 class="title">О НАС</h2>
+                    <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. 
+                    К нам обращаются за уютом, индивидуальными решениями и практичностью.
+                    Находим конструктивные решения для каждого интерьера, 
+                    вплоть до каждой детали — нацелены на результат.
+                    </p>
+                    <a href="#" class="services-btn">Посмотреть услуги</a>
+                </div>
+        </section>
+        <section class="projects">
+            <div class="container">
+                <h2 class="title">Проекты</h2>
+                    <ul>
+                        <li class="projects__list-item">
+                            <div class="projects__item">
+                                <img src="./resources/projects_1.png" alt="beautifully apartments">
+                                <h3 class="projects__item-title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+                                <a href="#">Подробнее →</a>
+                            </div>
+                        </li>
+                        <li class="projects__list-item">
+                            <div class="projects__item">
+                                <img src="./resources/projects_2.png" alt="beautifully apartments">
+                                <h3 class="projects__item-title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+                                <a href="#">Подробнее →</a>
+                            </div>
+                        </li>
+                        <li class="projects__list-item">
+                            <div class="projects__item">
+                                <img src="./resources/projects_3.png" alt="beautifully apartments">
+                                <h3 class="projects__item-title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                                <a href="#">Подробнее →</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a href="#" class="projects__link">Смотреть все проекты</a>
             </div>
-        </div>
-    </section>
-    <section class="projects-section">
-        <div class="container">
-            <div class="projects">
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="title services-title">Услуги</h2>
                 <ul>
-                    <h2 class="title">Проекты</h2>
-                    <li class="projects__list-item">
-                        <div class="projects__item">
-                            <img src="./resources/projects_1.png" alt="beautifully apartments">
-                            <p>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-                            <a href="#">Подробнее →</a>
+                    <li class="services__list-item">
+                        <div class="services__item">
+                            <img src="./resources/services_1.png" alt="drawings">
+                            <p>Планировочное решение — от 2500₽/м²</p>
                         </div>
                     </li>
-                    <li class="projects__list-item">
-                        <div class="projects__item">
-                            <img src="./resources/projects_2.png" alt="beautifully apartments">
-                            <p>ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
-                            <a href="#">Подробнее →</a>
+                    <li class="services__list-item">
+                        <div class="services__item">
+                            <img src="./resources/services_2.png" alt="design projects">
+                            <p>Дизайн-проект — от 3000₽/м²</p>
                         </div>
                     </li>
-                    <li class="projects__list-item">
-                        <div class="projects__item">
-                            <img src="./resources/projects_3.png" alt="beautifully apartments">
-                            <p>ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
-                            <a href="#">Подробнее →</a>
+                    <li class="services__list-item">
+                        <div class="services__item">
+                            <img src="./resources/services_3.png" alt="quality control">
+                            <p>Авторский надзор — от 30 000₽ в месяц</p>
+                        </div>
+                    </li>
+                    <li class="services__list-item">
+                        <div class="services__item">
+                            <img src="./resources/services_4.png" alt="warehouse">
+                            <p>Комплектация — 5% от стоимости спецификации</p>
                         </div>
                     </li>
                 </ul>
-
-                <a href="#" class="projects__link">Смотреть все проекты</a>
             </div>
-        </div>
-    </section>
-    <section class="services-section">
-        <div class="container">
-            <ul>
-                <h2 class="title services-title">Услуги</h2>
-                <li class="services__list-item">
-                    <div class="services__item">
-                        <img src="./resources/services_1.png" alt="drawings">
-                        <p>Планировочное решение — от 2500₽/м²</p>
-                    </div>
-                </li>
-                <li class="services__list-item">
-                    <div class="services__item">
-                        <img src="./resources/services_2.png" alt="design projects">
-                        <p>Дизайн-проект — от 3000₽/м²</p>
-                    </div>
-                </li>
-                <li class="services__list-item">
-                    <div class="services__item">
-                        <img src="./resources/services_3.png" alt="quality control">
-                        <p>Авторский надзор — от 30 000₽ в месяц</p>
-                    </div>
-                </li>
-                <li class="services__list-item">
-                    <div class="services__item">
-                        <img src="./resources/services_4.png" alt="warehouse">
-                        <p>Комплектация — 5% от стоимости спецификации</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class="background-image-section">
-        <div class="big-image__section">
-            <div class="container">
-                <h3 class="big-image__text">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+        </section>
+        <section class="background-image">
+            <div class="big-image__section">
+                <div class="container">
+                    <h3 class="big-image__text">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 </body>
 </html>
